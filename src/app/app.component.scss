@@ -1,0 +1,35 @@
+.add-btn {
+	margin-top:15px;
+}
+.randomNames {
+	margin-top: 25px;
+	list-style-type: none;
+	padding: 0;
+	height: auto;
+	width: auto;
+	display: inline-block;
+
+	li {
+		padding:5px;
+		margin:5px;
+		width: auto;
+		display: block;
+		background-color: lightgrey;
+	}
+}
+small.form-text {
+	margin-top: 15px;
+	display: inline-block;
+}
+
+app-todo {
+	display: block;
+}
+
+.nav-link {
+	color: inherit;
+	&.active {
+		font-weight: bold;
+		color: blue;
+	}
+}
